@@ -139,6 +139,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 700px) {
+  .popup__form-container {
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 659px) {
   .popup__form-close {
     top: -40px;
