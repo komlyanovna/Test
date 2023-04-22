@@ -1,0 +1,25 @@
+.header {
+  padding: 48px 87px 0 83px;
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &-logo {
+      width: 48px;
+      height: 32px;
+    }
+
+    &-burger {
+      width: 24px;
+      height: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .header {
+    padding: 48px 20px 0 20px;
+  }
+}

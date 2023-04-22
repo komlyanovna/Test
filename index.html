@@ -2,12 +2,167 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2?family= Mulish :ital,wght@0,400;1,200;1,400 & family= Yomogi & display=swap" rel="stylesheet">
+    <title>Test</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="app">
+      
+      <header class="header">
+        <div class="header__icons">
+          <img class="header__icons-logo" src="public\images\Group.svg" alt="logo"/>
+          <img class="header__icons-burger" src="public/images/Vector.svg" alt="burger" />
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__container">
+          <section class="main__content">
+            <div class="main__content-title">
+              <h1>New Automation
+                Tool for Your Home</h1>
+              <p>Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                  Faucibus tristique vulputate ultrices
+                  ut mauris tellus at.
+                  Posuere sollicitudin
+                  odio tellus elit.
+              </p>
+              <button class="main__content-button" type="button">See Our Project</button>
+            </div>
+            <div class="main__content-image">
+              <img src="public/images/illustration.png" alt="image" />
+            </div>
+          </section>
+        </div>
+
+        <section class="main__info">
+          <div class="main__info-cards">
+            <h3>What we do to help our client grow in digital era,</h3>
+            <div class="main__info-card main__info-card-technology">
+              <img src="/public/images/3.svg" alt="technology" />
+                <div class="main__info-card-content main__info-card-content-absolute">
+                  <h4>Bring Technology To Your Comfrotable Home</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn more &nbsp; &#8594;</a>
+              </div>
+            </div>
+            <div class="main__info-card main__info-card-business">
+              <img src="/public/images/1.svg" alt ="business" />
+              <div class="main__info-card-content main__info-card-content-absolute">
+                <h4>Make Your business To Be Better Famous In Internet</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#">Learn more &nbsp; &#8594;</a>
+            </div>
+            </div>
+            <div class="main__info-card main__info-card-digital">
+              <img src="/public/images/2 20.svg" alt ="digital" />
+              <div class="main__info-card-content main__info-card-content-absolute">
+                <h4>Build Your Digital Product That Suitable For Your Need</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#">Learn more &nbsp; &#8594;</a>
+            </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main__client">
+          <div class="main__client-content">
+            <h3>Our Beloved Client</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+          <div class="main__client-table">
+            <table>
+              <tr><th>LOGO CLIENT 1</th><th>LOGO CLIENT 2</th><th>LOGO CLIENT 3</th><th>LOGO CLIENT 4</th></tr>
+              <tr><td>LOGO CLIENT 5</td><td>LOGO CLIENT 6</td><td>LOGO CLIENT 7</td><td>More Client</td></tr>
+            </table>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__container-content">
+            <h3>Intersted to woek with our team?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+          <button type="button" class="main__content-button footer__container-button">Let’s Talk</button>
+        </div>
+        <hr/>
+        <div class="footer__contacts">
+          <div class="footer__contacts-container-logo">
+            <div class="footer__contacts-logo">
+              <img src="/public/images/footer-logo.svg" alt="footer logo">
+              <h4>Afrianska</h4>
+            </div>
+            <div class="footer__contacts-data">
+              <h5>A.
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </h5>
+              <h5>T.
+                <p>+62-812-7313-4321</p>
+              </h5>
+              <h5>E.
+                <p>hello.afrian@gmail.com</p>
+              </h5>
+            </div>
+      </div>
+          <div class="footer__about">
+            <ul>
+              <h5>About US</h5>
+              <li><a href="#">About</a></li>
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">Project</a></li>
+              <li><a href="#">How It Work With Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__about footer__follow">
+            <ul>
+              <h5>Follow US</h5>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>2019 © Afrianska. All rights reserved.</p>
+        </div>
+      </footer>
+
+    </div>
+
+    <div class="popup" id="popup">
+      <div class="popup__form">
+        <button data-popupclose class="popup__form-close">Close</button>
+        <div class="popup__form-container">
+          <h3>SEND US MESSAGE</h3>
+            <form action="" id="form-message" class="popup__form-message">
+              <label>Full Name</label>
+              <div class="popup__form-message-input-box">
+                <input id="name" name="name" type="text" class="popup__form-message-input" placeholder="Your Name">
+              </div>
+              <label>Email</label>
+              <div class="popup__form-message-input-box">
+                <input id="email" name="email" type="text" class="popup__form-message-input popup__form-message-email" placeholder="Your Email">
+              </div>
+              <label>Message</label>
+                <textarea id="message" name="message" type="text" class="popup__form-message-textarea popup__form-message-input-message" placeholder="Your Message"></textarea>
+                <button class="main__content-button popup__form-message-button" type="submit">submit</button>
+            </form>
+        </div>
+        </div>
+      </div>
+
+      <div class="popup popup__success">
+        <div class="popup__text-success">
+          <button data-popupclose class="popup__form-close-success">Close</button>
+          <h2>Your message successfully sent</h2>
+        </div>
+      </div>
+    <script defer type="module" src="/src/js/main.js"></script>
   </body>
 </html>
